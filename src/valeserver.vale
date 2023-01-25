@@ -1,0 +1,12 @@
+// 
+// exported interface IRequestHandler {
+//   func handle(virtual self &IRequestHandler, request_path str, request_body str) str;
+// }
+// 
+// exported func handleRequest(handler &IRequestHandler, request_path str, request_body str) str {
+//   return handler.handle(request_path, request_body);
+// }
+// 
+// extern func runServer(handler &IRequestHandler);
+// 
+// 
